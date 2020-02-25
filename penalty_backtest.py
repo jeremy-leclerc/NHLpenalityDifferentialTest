@@ -2,7 +2,7 @@ import json
 from backtrack_analysis import get_backtest_plays_data
 
 TARGET_STREAK = 3
-TIME_CUTOFF = 40 * 60
+TIME_CUTOFF = 15 * 60
 NHL_REG_SEASON_DATES = [	("2019-10-02", "2020-01-07"),  
 							("2018-10-03", "2019-04-06"), 
 							("2017-10-04", "2018-04-08"), 
